@@ -7,7 +7,7 @@ export default class Nav extends Component {
   handleAnchorClick = (event) => {
     event.preventDefault();
 
-    console.log(`--- preventing default so we don't cause navigation`);
+    console.log(`--- preventing default so we don't cause native navigation`);
 
     // The router service only works for in-app links
     // and the href may contain our own origin
