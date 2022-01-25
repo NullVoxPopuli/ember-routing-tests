@@ -1,0 +1,11 @@
+
+In this app<br>
+<LinkTo @route="a">LinkTo a</LinkTo> |
+<LinkTo @route="b">LinkTo b</LinkTo> |
+<a {{on 'click' this.handleAnchorClick}} href="/a">Anchor to a</a> |
+<a {{on 'click' this.handleAnchorClick}} href="/b">Anchor to b</a>
+
+
+<br><br>
+Not in this app<br>
+<a {{on 'click' this.handleAnchorClick}} href="https://emberjs.com">Visit emberjs</a>
